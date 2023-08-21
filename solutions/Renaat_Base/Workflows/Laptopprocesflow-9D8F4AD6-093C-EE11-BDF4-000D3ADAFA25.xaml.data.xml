@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{9d8f4ad6-093c-ee11-bdf4-000d3adafa25}" Name="Laptop proces flow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Laptopprocesflow-9D8F4AD6-093C-EE11-BDF4-000D3ADAFA25.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>rms_laptopprocesflow</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>rms_laptop</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Laptop proces flow" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{46d34bc7-d803-43da-ba1b-f24a31a038da}">
+      <label languagecode="1033" description="New Stage" />
+    </steplabels>
+    <steplabels id="{e940df12-0117-4b77-9f39-1130d5cc1994}">
+      <label languagecode="1033" description="Name" />
+    </steplabels>
+    <steplabels id="{22d1a333-02cb-4aaa-b1c6-f08b28c92aeb}">
+      <label languagecode="1033" description="Flow - deactiveer" />
+    </steplabels>
+  </labels>
+</Workflow>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="bpf_rms_laptop_rms_laptopprocesflow" />
+  <EntityRelationship Name="business_unit_rms_laptop" />
+  <EntityRelationship Name="business_unit_rms_laptoptype" />
+  <EntityRelationship Name="lk_rms_laptop_createdby" />
+  <EntityRelationship Name="lk_rms_laptop_modifiedby" />
+  <EntityRelationship Name="lk_rms_laptopprocesflow_activestageid" />
+  <EntityRelationship Name="lk_rms_laptopprocesflow_createdby" />
+  <EntityRelationship Name="lk_rms_laptopprocesflow_modifiedby" />
+  <EntityRelationship Name="lk_rms_laptopprocesflow_processid" />
+  <EntityRelationship Name="lk_rms_laptoptype_createdby" />
+  <EntityRelationship Name="lk_rms_laptoptype_modifiedby" />
+  <EntityRelationship Name="organization_rms_laptopprocesflow" />
+  <EntityRelationship Name="owner_rms_laptop" />
+  <EntityRelationship Name="owner_rms_laptoptype" />
+  <EntityRelationship Name="rms_rms_laptop_typeid_rms_laptoptype" />
+  <EntityRelationship Name="team_rms_laptop" />
+  <EntityRelationship Name="team_rms_laptoptype" />
+  <EntityRelationship Name="user_rms_laptop" />
+  <EntityRelationship Name="user_rms_laptoptype" />
+</EntityRelationships>

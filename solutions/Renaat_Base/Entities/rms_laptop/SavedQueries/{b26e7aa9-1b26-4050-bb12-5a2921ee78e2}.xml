@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b26e7aa9-1b26-4050-bb12-5a2921ee78e2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="rms_name" select="1" icon="1" preview="1">
+        <row name="result" id="rms_laptopid">
+          <cell name="rms_typeid" width="100" />
+          <cell name="rms_serialnumber" width="123" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="rms_laptop">
+          <attribute name="rms_laptopid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="rms_typeid" />
+          <attribute name="rms_serialnumber" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Laptops" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

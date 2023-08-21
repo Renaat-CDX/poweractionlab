@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7b17628e-8161-41ef-bb6e-98ee86113b97}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{46d34bc7-d803-43da-ba1b-f24a31a038da}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{b9640e7b-058f-4e58-94e5-8a59876e737c}">
+          <labels>
+            <label description="New Stage" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{54854063-c380-5019-564a-e8aba8e4d2c9}" name="StageStep3_section1" labelid="{90717742-a428-45f9-8942-08ae8b82afe0}">
+                  <labels>
+                    <label description="New Stage" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e940df12-0117-4b77-9f39-1130d5cc1994}" showlabel="true" visible="true" labelid="{5280e674-cb52-47b0-a326-ce92fcee7484}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_rms_laptop_rms_laptopprocesflow:rms_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="rms_name" relationship="bpf_rms_laptop_rms_laptopprocesflow" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22d1a333-02cb-4aaa-b1c6-f08b28c92aeb}" showlabel="true" visible="true" labelid="{885dfc4e-0eb8-4f21-a2f7-6e28497f0777}">
+                        <labels>
+                          <label description="Flow - deactiveer" languagecode="1033" />
+                        </labels>
+                        <control id="Step_8:5b2d8af5-083c-ee11-bdf4-000d3adafa25_flowstep" classid="{00ad73da-bd4d-49c6-88a8-2f4f4cad4a20}" datafieldname="Step_8" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
