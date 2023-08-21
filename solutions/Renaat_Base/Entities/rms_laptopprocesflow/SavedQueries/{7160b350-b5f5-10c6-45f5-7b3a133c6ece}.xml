@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{7160b350-b5f5-10c6-45f5-7b3a133c6ece}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="bpf_name" select="1" icon="1" preview="1">
+        <row name="result" id="businessprocessflowinstanceid">
+          <cell name="bpf_rms_laptopid" width="300" />
+          <cell name="activestageid" width="150" />
+          <cell name="statuscode" width="150" />
+          <cell name="createdon" width="150" />
+          <cell name="processid" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1048576</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="rms_laptopprocesflow">
+          <attribute name="businessprocessflowinstanceid" />
+          <attribute name="bpf_name" />
+          <attribute name="createdon" />
+          <attribute name="bpf_rms_laptopid" />
+          <attribute name="activestageid" />
+          <attribute name="statecode" />
+          <attribute name="statuscode" />
+          <attribute name="createdby" />
+          <attribute name="processid" />
+          <order attribute="bpf_name" descending="false" />
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="bpf_name" operator="like" value="{0}" />
+            <condition attribute="bpf_rms_laptopid" operator="like" value="{0}" />
+            <condition attribute="activestageid" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Laptop proces flow Copilot View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

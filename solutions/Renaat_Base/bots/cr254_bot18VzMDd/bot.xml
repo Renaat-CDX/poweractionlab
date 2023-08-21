@@ -1,0 +1,29 @@
+<bot schemaname="cr254_bot18VzMDd">
+  <authenticationmode>1</authenticationmode>
+  <authenticationtrigger>0</authenticationtrigger>
+  <iscustomizable>0</iscustomizable>
+  <language>1033</language>
+  <name>Bot 1</name>
+  <runtimeprovider>0</runtimeprovider>
+  <synchronizationstatus>{
+  "contentVersion": 2,
+  "lastFinishedPublishOperation": {
+    "userId": "04048c81-6956-4681-beb1-2c035633defe",
+    "operationStart": "2023-08-16T13:19:21.9988255Z",
+    "operationEnd": "2023-08-16T13:19:23.8489808Z",
+    "status": "Succeeded"
+  },
+  "lastPublishedOnUtc": "2023-08-16T13:19:22Z",
+  "currentSynchronizationState": {
+    "botRegistration": {
+      "applicationId": "52f8e8ad-6919-4bce-9ba7-0d3e749db66b",
+      "isAppAvailableInTenant": true
+    },
+    "provisioningStatus": "Provisioned",
+    "state": "Synchronized"
+  },
+  "lastSynchronizedOnUtc": "2023-08-16T13:21:44.7249506Z"
+}</synchronizationstatus>
+  <template>default-2.0.1</template>
+  <timezoneruleversionnumber>0</timezoneruleversionnumber>
+</bot>
